@@ -35,6 +35,7 @@ public class Player extends Entity {
         x=100;
         y=100;
         speed =4;
+        direction ="down";
     }
     public void update(){
         if(keyH.upPressed ==true){
