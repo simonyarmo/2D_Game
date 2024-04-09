@@ -1,6 +1,0 @@
-Exception in thread "main" java.lang.IllegalArgumentException: input == null!
-	at java.desktop/javax.imageio.ImageIO.read(ImageIO.java:1356)
-	at entity.Player.getPlayerImage(Player.java:23)
-	at entity.Player.<init>(Player.java:19)
-	at main.GamePanel.<init>(GamePanel.java:22)
-	at main.Main.main(Main.java:13)
