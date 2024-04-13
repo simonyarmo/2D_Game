@@ -1,4 +1,5 @@
 package main;
+import object.OBJ_Bandana;
 import object.OBJ_Chest;
 import object.OBJ_Door;
 import object.OBJ_Key;
@@ -33,6 +34,9 @@ public class AssestSetter {
 //    gp.obj[5].worldX = 25*gp.tileSize;
 //    gp.obj[5].worldY = 15 *gp.tileSize;
 
+        gp.obj[5] = new OBJ_Bandana();
+        gp.obj[5].worldX = 25*gp.tileSize;
+        gp.obj[5].worldY = 20 *gp.tileSize;
 
     }
 }
